@@ -44,6 +44,9 @@ git init
 # Ajoute le dépôt GitHub comme un "remote"
 git remote add origin git@github.com:lhp9-tg/Test.git
 
+# Configure la remote comme upstream pour pouvoir push
+git push --set-upstream origin main
+
 # Crée un fichier README.md
 echo "# $repo_name" >> README.md
 

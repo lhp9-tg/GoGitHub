@@ -24,6 +24,10 @@ GoGitHub est un script bash qui permet de créer un dépôt GitHub à partir d'u
 - Fait un commit avec le message "Initial commit"
 - Push le commit sur GitHub
 
+> NB : Créer une branche principale main et non master
+
+[]: # Path: README.md
+
 # GoGitHub
 
 ## Description
@@ -49,3 +53,5 @@ GoGitHub is a bash script that allows you to create a GitHub repository from a l
 - Adds all the files to the repository
 - Makes a commit with the message "Initial commit"
 - Pushes the commit to GitHub
+
+> NB: Create a main branch and not a master branch
