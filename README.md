@@ -26,7 +26,7 @@ GoGitHub est un script bash qui permet de créer un dépôt GitHub à partir d'u
 
 > NB : Créer une branche principale main et non master
 
-[]: # Path: README.md
+---
 
 # GoGitHub
 
