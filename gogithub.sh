@@ -42,7 +42,7 @@ cd $current_path/$repo_name
 git init
 
 # Ajoute le dépôt GitHub comme un "remote"
-git remote add origin git@github.com:lhp9-tg/Test.git
+git remote add origin git@github.com:$username/$repo_name.git
 
 # Crée un fichier README.md
 echo "# $repo_name" >> README.md
