@@ -15,33 +15,34 @@ GoGitHub est un script bash qui permet de créer un dépôt GitHub à partir d'u
 
 ### Une variable d'environnement GITHUB_TOKEN avec le token d'authentification GitHub
 
-::: details Comment créer une variable d'environnement sous Windows ?
-
-Il existe plusieurs façons de trouver les variables d'environnement sur Windows 11. En voici quelques-unes:
-
-1. Panneau de configuration :
-
-Tapez "Panneau de configuration" dans la barre de recherche dans la barre des tâches, puis sélectionnez l'application.
-Sélectionnez "Système et sécurité", puis "Système".
-Cliquez sur "Paramètres système avancés".
-Dans l'onglet "Avancé", cliquez sur "Variables d'environnement...".
-
-2. Invite de commandes :
-
-Ouvrez l'Invite de commandes en tapant "cmd" dans la barre de recherche et en sélectionnant l'application.
-Tapez "set" et appuyez sur Entrée. Cela affichera toutes les variables d'environnement.
-
-3. PowerShell :
-
-Ouvrez PowerShell en tapant "PowerShell" dans la barre de recherche et en sélectionnant l'application.
-Tapez "Get-ChildItem Env:" et appuyez sur Entrée. Cela affichera toutes les variables d'environnement.
-Editeur de registre (Regedit) :
-
-Appuyez sur la touche Windows + R, tapez "regedit" et appuyez sur Entrée.
-Naviguez jusqu'à "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Environment". Vous pouvez y voir les variables d'environnement.
-
-Soyez prudent lorsque vous manipulez les variables d'environnement. La modification incorrecte de ces variables peut avoir des conséquences sur le fonctionnement de votre système.
-:::
+> [!NOTE]
+>
+> # Comment créer une variable d'environnement sous Windows ?
+>
+> Il existe plusieurs façons de trouver les variables d'environnement sur Windows 11. En voici quelques-unes:
+>
+> 1.  Panneau de configuration :
+>
+> Tapez "Panneau de configuration" dans la barre de recherche dans la barre des tâches, puis sélectionnez l'application.
+> Sélectionnez "Système et sécurité", puis "Système".
+> Cliquez sur "Paramètres système avancés".
+> Dans l'onglet "Avancé", cliquez sur "Variables d'environnement...".
+>
+> 2.  Invite de commandes :
+>
+> Ouvrez l'Invite de commandes en tapant "cmd" dans la barre de recherche et en sélectionnant l'application.
+> Tapez "set" et appuyez sur Entrée. Cela affichera toutes les variables d'environnement.
+>
+> 3.  PowerShell :
+>
+> Ouvrez PowerShell en tapant "PowerShell" dans la barre de recherche et en sélectionnant l'application.
+> Tapez "Get-ChildItem Env:" et appuyez sur Entrée. Cela affichera toutes les variables d'environnement.
+> Editeur de registre (Regedit) :
+>
+> Appuyez sur la touche Windows + R, tapez "regedit" et appuyez sur Entrée.
+> Naviguez jusqu'à "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Environment". Vous pouvez y voir les variables d'environnement.
+>
+> Soyez prudent lorsque vous manipulez les variables d'environnement. La modification incorrecte de ces variables peut avoir des conséquences sur le fonctionnement de votre système.
 
 > Lancer le terminal puis executez :
 
@@ -88,35 +89,35 @@ GoGitHub is a bash script that allows you to create a GitHub repository from a l
 
 ### A GITHUB_TOKEN environment variable with the GitHub authentication token
 
-::: details How to create an environment variable on Windows ?
-
-There are several ways to find environment variables on Windows 11. Here are some of them:
-
-1. Control Panel:
-
-Type "Control Panel" in the search bar in the taskbar, then select the application.
-Select "System and Security", then "System".
-Click on "Advanced system settings".
-In the "Advanced" tab, click on "Environment Variables...".
-
-2. Command Prompt:
-
-Open Command Prompt by typing "cmd" in the search bar and selecting the application.
-Type "set" and press Enter. This will display all environment variables.
-
-3. PowerShell:
-
-Open PowerShell by typing "PowerShell" in the search bar and selecting the application.
-Type "Get-ChildItem Env:" and press Enter. This will display all environment variables.
-Registry Editor (Regedit):
-
-Press the Windows + R key, type "regedit" and press Enter.
-
-Navigate to "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Environment". You can see the environment variables there.
-
-Be careful when manipulating environment variables. Incorrect modification of these variables can have consequences on the operation of your system.
-
-:::
+> [!NOTE]
+>
+> #How to create an environment variable on Windows ?
+>
+> There are several ways to find environment variables on Windows 11. Here are some of them:
+>
+> 1.  Control Panel:
+>
+> Type "Control Panel" in the search bar in the taskbar, then select the application.
+> Select "System and Security", then "System".
+> Click on "Advanced system settings".
+> In the "Advanced" tab, click on "Environment Variables...".
+>
+> 2.  Command Prompt:
+>
+> Open Command Prompt by typing "cmd" in the search bar and selecting the application.
+> Type "set" and press Enter. This will display all environment variables.
+>
+> 3.  PowerShell:
+>
+> Open PowerShell by typing "PowerShell" in the search bar and selecting the application.
+> Type "Get-ChildItem Env:" and press Enter. This will display all environment variables.
+> Registry Editor (Regedit):
+>
+> Press the Windows + R key, type "regedit" and press Enter.
+>
+> Navigate to "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Environment". You can see the environment variables there.
+>
+> Be careful when manipulating environment variables. Incorrect modification of these variables can have consequences on the operation of your system.
 
 > Launch the terminal and execute:
 
