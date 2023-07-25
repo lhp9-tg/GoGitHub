@@ -4,15 +4,26 @@
 
 GoGitHub est un script bash qui permet de créer un dépôt GitHub à partir d'un dossier local.
 
+## Fonctionnement
+
+- Executer goguthub.sh un dossier avec le nom du repository **dans le dossier courant** _(cad=> le dossier où vous vous trouvez quand vous lancez le script)_
+- Initialise le dossier en tant que dépôt git local
+- Créé un dépôt sur GitHub avec le nom du dossier
+- Ajoute le dépôt GitHub comme un "remote" du dépôt local
+- Créé un fichier README.md
+- Ajoute tous les fichiers au dépôt
+- Fait un commit avec le message "Initial commit"
+- Push le commit sur GitHub
+
 ## Installation
 
-## Prérequis
+### Prérequis
 
-- **Gitbash ou WSL (Windows Subsystem for Linux) pour executer les commandes bash**
+- **Pour les utilisateurs Windows : Gitbash ou WSL (Windows Subsystem for Linux) pour executer les commandes bash**
+
+> lien pour installer Gitbash : https://git-scm.com/downloads **(recommendé)**
 
 > lien pour installer WSL : https://docs.microsoft.com/fr-fr/windows/wsl/install-win10
-
-> lien pour installer Gitbash : https://git-scm.com/downloads
 
 - **Un jeton (token) d'authentification GitHub**
 
@@ -48,29 +59,19 @@ GoGitHub est un script bash qui permet de créer un dépôt GitHub à partir d'u
 
         Soyez prudent lorsque vous manipulez les variables d'environnement. La modification incorrecte de ces variables peut avoir des conséquences sur le fonctionnement de votre système.
 
-Lancer le terminal puis executez :
+**Pour les utilisateurs de Windows et des systèmes Unix (MacOSX et Linux) : Lancer le terminal puis executez:**
 
 ```bash
 setx GITHUB_TOKEN "votre_token_d'authentification_github"
 ```
 
 A noter que le token d'authentification est à remplacer par le votre.
+
 La variable d'environnement GITHUB_TOKEN ne sera utilisable qu'**à la prochaine ouverture du terminal.**
 
 - **Une clé SSH pour accèder à l'adresse SSH du repo (optionnel)**
 
 > Lien pour créer une clée SSH https://docs.github.com/fr/authentication/keeping-your-account-and-data-secure/reviewing-your-ssh-keys
-
-### Fonctionnement
-
-- Créé un dossier avec le nom du repository dans le dossier courant (cad=> le dossier où vous vous trouvez quand vous lancez le script)
-- Initialise le dossier en tant que dépôt git local
-- Créé un dépôt sur GitHub avec le nom du dossier
-- Ajoute le dépôt GitHub comme un "remote" du dépôt local
-- Créé un fichier README.md
-- Ajoute tous les fichiers au dépôt
-- Fait un commit avec le message "Initial commit"
-- Push le commit sur GitHub
 
 ---
 
@@ -80,15 +81,26 @@ La variable d'environnement GITHUB_TOKEN ne sera utilisable qu'**à la prochaine
 
 GoGitHub is a bash script that allows you to create a GitHub repository from a local folder.
 
+## Functionality
+
+- Execute gogithub.sh in a folder with the name of the repository **in the current directory** _(i.e., the directory where you are when you launch the script)_
+- Initializes the folder as a local git repository
+- Creates a repository on GitHub with the name of the folder
+- Adds the GitHub repository as a "remote" of the local repository
+- Creates a README.md file
+- Adds all files to the repository
+- Makes a commit with the message "Initial commit"
+- Pushes the commit to GitHub
+
 ## Installation
 
-## Prerequisites
+### Prerequisites
 
-- **Gitbash or WSL (Windows Subsystem for Linux) to execute bash commands**
+- **For Windows Users : Gitbash or WSL (Windows Subsystem for Linux) to execute bash commands**
+
+> link to install Gitbash : https://git-scm.com/downloads **(recommended)**
 
 > link to install WSL : https://docs.microsoft.com/fr-fr/windows/wsl/install-win10
-
-> link to install Gitbash : https://git-scm.com/downloads
 
 - **A GitHub authentication token**
 
@@ -125,26 +137,18 @@ GoGitHub is a bash script that allows you to create a GitHub repository from a l
 
         Be careful when manipulating environment variables. Incorrect modification of these variables can have consequences on the operation of your system.
 
-Launch the terminal and execute:
+**For Windows users and Unix system users (MacOSX and Linux) : Launch the terminal and execute:**
 
 ```bash
 setx GITHUB_TOKEN "your_github_authentication_token"
 ```
 
 Note that the authentication token should be replaced with your own.
+
 The GITHUB_TOKEN environment variable will only be usable **upon the next opening of the terminal.**
 
 - **An SSH key to access the SSH address of the repo (optional)**
 
 > Link to create an SSH key https://docs.github.com/fr/authentication/keeping-your-account-and-data-secure/reviewing-your-ssh-keys
 
-## Functionality
-
-- Creates a folder with the name of the repository in the current directory (i.e., the directory where you are when you launch the script)
-- Initializes the folder as a local git repository
-- Creates a repository on GitHub with the name of the folder
-- Adds the GitHub repository as a "remote" of the local repository
-- Creates a README.md file
-- Adds all files to the repository
-- Makes a commit with the message "Initial commit"
-- Pushes the commit to GitHub
+---
